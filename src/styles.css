@@ -4,6 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
+*{
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -13,7 +17,17 @@ body {
   padding: 0;
   width: 100%;
 }
-
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  background: rgba(255,255,255,0.75);
+  padding: 1rem;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
 div#main {
   display: flex;
   flex-direction: column;
@@ -47,17 +61,20 @@ section img.background {
 
 h1 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 0.8;
-  margin: 0;
+  text-align: center;
 }
+
+
 
 h2 {
   font-size: 2rem;
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
+  color:rgb(213, 57, 0);
+  
 }
 
 h3 {
@@ -90,7 +107,15 @@ li {
 }
 
 li::marker {
-  color: #4e567e;
+  color: #d53900;
+}
+
+ul {
+  textAlign: left;
+  columns: 2;
+  font-size: 1.25rem;
+  margin: 2rem 3rem;
+  gap: 3rem;
 }
 
 a {
@@ -98,8 +123,19 @@ a {
   text-decoration: none;
 }
 
+a.active{
+  color: #d53900;
+  text-decoration: none !important;
+}
+
+
 a:hover {
-  color: #4e567e;
+  color: #d53900;
+  text-decoration: underline;
+  text-underline-offset: 16px;
+  transition: .5s ease;
+  font-size: 1.02rem;
+ 
 }
 
 .container {
@@ -111,7 +147,7 @@ a:hover {
 
 .container .box {
   border-radius: 10px;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid #d53900;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -122,4 +158,39 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+
+.homeDiv h2 {
+  position: relative;
+  top: -60px;
+  text-align: center;
+}
+
+.imageDiv {
+  text-align: center;
+  margin-top: 150px;
+ 
+}
+
+
+.avater{
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  background-color: rgb(213, 57, 0);
+  padding: 8px;
+  margin: auto;
+  position: relative;
+  animation: moveImage  3s infinite
+}
+
+@keyframes moveImage {
+  0%   {top: 0px;}
+  50%  {top: 10px;}
+  100% {top: 0px;}
+}
+
+#footer {
+  background-color: #d53900;
 }
