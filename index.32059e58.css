@@ -39,6 +39,7 @@
 
   .navbar a {
     margin-right: 10px;
+    text-decoration: none;
     list-style-type: none;
     display: list-item;
   }
