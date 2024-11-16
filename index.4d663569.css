@@ -124,9 +124,9 @@ a.active {
 a:hover {
   color: #d53900;
   text-underline-offset: 16px;
-  font-size: 1.02rem;
   text-decoration: underline;
-  transition: all .5s;
+  transition: transform .5s;
+  transform: scale(1.1);
 }
 
 .container {
@@ -189,6 +189,12 @@ img.socialIcon {
 
 #footer {
   background-color: #d53900;
+}
+
+img.socialIcon:hover {
+  opacity: .9;
+  transition: transform .3s;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */

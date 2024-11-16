@@ -41,6 +41,7 @@
   .navbar a {
     margin-bottom: 10px;
     margin-right: 10px;
+    font-size: 1.2rem;
     text-decoration: none;
     list-style-type: none;
     display: list-item;
