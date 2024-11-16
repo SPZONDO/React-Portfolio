@@ -49,6 +49,11 @@
   a:hover {
     text-decoration: none;
   }
+
+  .avater {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 /*# sourceMappingURL=index.32059e58.css.map */
