@@ -104,7 +104,7 @@ li::marker {
 }
 
 ul {
-  textAlign: left;
+  text-align: left;
   columns: 2;
   gap: 3rem;
   margin: 2rem 3rem;

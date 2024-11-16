@@ -38,10 +38,15 @@
   }
 
   .navbar a {
+    margin-bottom: 10px;
     margin-right: 10px;
     text-decoration: none;
     list-style-type: none;
     display: list-item;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 }
 
