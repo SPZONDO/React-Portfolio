@@ -27113,9 +27113,9 @@ var _stylesCss = require("./styles.css");
     name: "Sibusisiwe Pearl Zondo",
     title: "Web Developer",
     email: "spzondo3@gmail.com",
-    gitHub: "https://github.com/SPZONDOoft",
+    gitHub: "https://github.com/SPZONDO",
     instagram: "",
-    linkedIn: "https://www.linkedin.com/in/spzondo",
+    linkedIn: "https://linkedin.com/in/spzondo",
     medium: "",
     twitter: "",
     youTube: ""
